@@ -36,34 +36,30 @@
 <v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
-<v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
+<v t="yen.20170108171733.16" a="E"><vh>page1</vh>
+<v t="yen.20170108171733.17"><vh>virtualbox中啟動 fossil</vh></v>
 </v>
-<v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
-<v t="yen.20170108171733.65" a="E"><vh>導入數學符號與方程式</vh>
-<v t="yen.20170108171733.66"><vh>LaTeX 格式方程式</vh></v>
+<v t="yen.20170108171733.65" a="E"><vh>page2</vh>
+<v t="yen.20170108171733.66"><vh>在 ubuntu 中安裝 nginx 伺服</vh></v>
 </v>
-<v t="yen.20170108171733.69" a="E"><vh>導入影片</vh>
-<v t="yen.20170108171733.70"><vh>iframe 導入影片</vh></v>
-</v>
-</v>
-<v t="yen.20170108171733.67" a="E"><vh>導入縮排程式碼</vh>
-<v t="yen.20170108171733.68"><vh>引用程式碼</vh></v>
+<v t="yen.20170108171733.67" a="E"><vh>page3</vh>
+<v t="yen.20170108171733.68"><vh>啟動 CMsimfly</vh></v>
 </v>
 </v>
+<v t="yen.20170108171733.64"><vh>各式內容引用範例</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
-<v t="yen.20170108171733.72"><vh>@edit 20170108.md</vh></v>
-<v t="yen.20170219101403.1"><vh>@clean 20170219.md</vh>
+<v t="yen.20170108171733.72"><vh>@edit 20170625.md</vh></v>
+<v t="yen.20170219101403.1"><vh>@edit 20170626.md</vh>
 <v t="yen.20170219101623.1"><vh>ex1 - for 迴圈</vh></v>
 <v t="yen.20170219101610.1"><vh>ex2 - input 與單位換算</vh></v>
 <v t="yen.20170219101553.1"><vh>filereader</vh></v>
 </v>
-<v t="leo.20170303144114.1"><vh>@edit 20170303.md</vh></v>
-<v t="yen.20170304100133.1"><vh>@edit 20170304.md</vh></v>
+<v t="leo.20170303144114.1"><vh>@edit 20170627.md</vh></v>
+<v t="yen.20170304100133.1"><vh>@edit 20170628.md</vh></v>
 <v t="yen.20170304100907.1"><vh>@edit 20170304-1.md</vh></v>
 <v t="yen.20170417151414.1"><vh>@edit 20170417.md</vh></v>
 <v t="yen.20170618211552.1"><vh>@edit 20170618.md</vh></v>
@@ -243,7 +239,8 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="yen.20170108171733.15"># 2017 網際網路內容管理40523139 劉育彤
+<t tx="yen.20170108171733.15">## 2017 網際內容管理
+##40523139 劉育彤
 
 ### 
 
@@ -254,9 +251,9 @@ Created by me
 
 [vimeo](https://vimeo.com/user58915964)
 
-[wiki](https://github.com/s40523139/2016fallcp_hw/wiki)
+[wiki](https://github.com/s40523139/2017springwcm_hw)
 
-[blog](https://s40523139.github.io/2016fallcp_hw/blog/)
+[blog](https://s40523139.github.io/2017springwcm_hw/blog/)
 </t>
 <t tx="yen.20170108171733.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -269,8 +266,10 @@ Created by me
 </t>
 <t tx="yen.20170108171733.17">&lt;section&gt;
 　&lt;h2&gt;virtualbox中啟動 fossil&lt;/h2&gt;
+
 &lt;iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;2017-04-27_20-33-51&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;
+&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20170108171733.2">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
@@ -296,7 +295,7 @@ g.es("admin pelican 近端執行完畢")
 </t>
 <t tx="yen.20170108171733.66">##在 ubuntu 中安裝 nginx 伺服
 &lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;2017-04-27_23-21-44&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20170108171733.67">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -310,17 +309,7 @@ g.es("admin pelican 近端執行完畢")
 </t>
 <t tx="yen.20170108171733.68">##啟動 CMsimfly
 &lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;2017-04-27_23-08-37&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
-<t tx="yen.20170108171733.69">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170108171733.70"></t>
+&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.8">@language xml
 @tabwidth -4
@@ -388,200 +377,27 @@ def domake():
 make = threading.Thread(target=domake)
 make.start()</t>
 <t tx="yen.20170219101403.1">@language md
-Title: 網際 Python3 程式環境
-Date: 2017-02-19 11:00
-Category: Course
-Tags: brython, w1
-Slug: web-based-python3
-Author: yen
-
-網際內容管理課程利用 &lt;a href="https://brython.info/"&gt;Brython&lt;/a&gt; 建立一個能夠直接在瀏覽器中執行的 Python3 程式環境, 讓使用者進行各種與機械產品開發相關的設計運算與動靜態模擬.
+Title: 啟動 CMsimfly
+Date: 2017-04-24 12:00
+Category: Misc
+Tags: CMsimfly
+Author: 40523139
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;!-- 導入 FileSaver 與 filereader --&gt;
-&lt;script type="text/javascript" src="./../ace/FileSaver.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="./../ace/filereader.js"&gt;&lt;/script&gt;
+下載這學期用的tiny2017_1GB 並打開start.bat 在tmp目錄下有一個CMsimfly的檔案
 
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-&lt;!-- &lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt; --&gt;
+先查 ip用 ipconfig     
 
-&lt;!-- 為了讓 import script1 可以正確運行, 停留在 Brython 3.2.9 版 --&gt;
+用 scite 把wsgi.py 打開 把 ip 改成自己的
 
-&lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/3.2.9/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
+步驟 : cd tmp -&gt; cd CMsimfly -&gt; pyhton wsgi.py 
 
-&lt;!-- 啟動 Brython --&gt;
-&lt;script&gt;
-window.onload=function(){
-brython(1);
-}
-&lt;/script&gt;
-
-&lt;!-- 假如需要用圖型表示數字, 則利用 canvas 繪圖 --&gt;
-&lt;!-- &lt;canvas id="plotarea" width="600" height="400"&gt;&lt;/canvas&gt; --&gt;
-
-&lt;div id="container1"&gt;&lt;/div&gt;
-&lt;script type="text/python3"&gt;
-from browser import document, html
-container1 = document['container1']
-&lt;/script&gt;
-
-### 利用伺服器執行 Python3 程式
-
-Jupyterhub: &lt;a href="https://8888.kmol.info:9443"&gt;https://8888.kmol.info:9443&lt;/a&gt;
-
-### 利用以下的編輯器執行 Python3 程式
-
-在 Firefox 中, 以 Preferences - General - Downloads 選擇"Always ask me where to save files"
-
-在 Chrome 中, 以 Settings - Advanced - Downloads 選擇 Ask where to save each file before downloading
-
-&lt;script src="./../ace/ace.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-&lt;script src="./../ace/ext-language_tools.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-&lt;script src="./../ace/mode-python3.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-&lt;script src="./../ace/snippets/python.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--&gt;
-&lt;script type="text/javascript"&gt;
-function doSave(){
-    var blob = new Blob([localStorage["py_src"]], {type: "text/plain;charset=utf-8"});
-    filename = document.getElementById('filename').value
-    saveAs(blob, filename+".py");
-}
-&lt;/script&gt;
-
-&lt;script type="text/python3" id="script1"&gt;
-import sys
-import time
-import traceback
-import javascript
-
-from browser import document as doc, window, alert
-
-has_ace = True
-try:
-    editor = window.ace.edit("editor")
-    session = editor.getSession()
-    session.setMode("ace/mode/python")
-
-    editor.setOptions({
-     'enableLiveAutocompletion': True,
-     'enableSnippets': True,
-     'highlightActiveLine': False,
-     'highlightSelectedWord': True
-    })
-except:
-    from browser import html
-    editor = html.TEXTAREA(rows=20, cols=70)
-    doc["editor"] &lt;= editor
-    def get_value(): return editor.value
-    def set_value(x):editor.value = x
-    editor.getValue = get_value
-    editor.setValue = set_value
-    has_ace = False
-
-if hasattr(window, 'localStorage'):
-    from browser.local_storage import storage
-else:
-    storage = None
-
-def reset_src():
-    if storage is not None and "py_src" in storage:
-        editor.setValue(storage["py_src"])
-    else:
-        editor.setValue('for i in range(10):\n\tprint(i)')
-    editor.scrollToRow(0)
-    editor.gotoLine(0)
-
-def reset_src_area():
-    if storage and "py_src" in storage:
-        editor.value = storage["py_src"]
-    else:
-        editor.value = 'for i in range(10):\n\tprint(i)'
-
-class cOutput:
-
-    def __init__(self,target):
-        self.target = doc[target]
-    def write(self,data):
-        self.target.value += str(data)
-        
-
-#if "console" in doc:
-sys.stdout = cOutput("console")
-sys.stderr = cOutput("console")
-
-def to_str(xx):
-    return str(xx)
-
-info = sys.implementation.version
-doc['version'].text = 'Brython %s.%s.%s' % (info.major, info.minor, info.micro)
-
-output = ''
-
-def show_console(ev):
-    doc["console"].value = output
-    doc["console"].cols = 60
-    doc["console"].rows = 10
-
-# load a Python script
-def load_script(evt):
-    _name = evt.target.value + '?foo=%s' % time.time()
-    editor.setValue(open(_name).read())
-
-# run a script, in global namespace if in_globals is True
-def run(*args):
-    global output
-    doc["console"].value = ''
-    src = editor.getValue()
-    if storage is not None:
-       storage["py_src"] = src
-
-    t0 = time.perf_counter()
-    try:
-        #ns = {'__name__':'__main__'}
-        ns = {'__name__':'editor'}
-        exec(src, ns)
-        state = 1
-    except Exception as exc:
-        traceback.print_exc(file=sys.stderr)
-        state = 0
-    output = doc["console"].value
-
-    print('&lt;completed in %6.2f ms&gt;' % ((time.perf_counter() - t0) * 1000.0))
-    return state
-
-if has_ace:
-    reset_src()
-else:
-    reset_src_area()
-    
-def clear_console(ev):
-    doc["console"].value = ""
-
-doc['run'].bind('click',run)
-doc['show_console'].bind('click',show_console)
-doc['clear_console'].bind('click',clear_console)
-&lt;/script&gt;
-
-&lt;div id="version"&gt;&lt;/div&gt;
-&lt;div id="editor" style="width:600px;height:300px;"&gt;&lt;/div&gt;
-
-&lt;!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --&gt;
-
-&lt;form&gt;
-    &lt;label&gt;Filename: &lt;input type="text" id="filename" placeholder="input file name"/&gt;.py&lt;/label&gt;
-    &lt;input type="submit" value="Save" onclick="doSave();"/&gt;
-&lt;/form&gt;
-&lt;button id="run"&gt;Run&lt;/button&gt;
-&lt;button id="show_console"&gt;Output&lt;/button&gt;
-&lt;button id="clear_console"&gt;清除&lt;/button&gt;
-&lt;div style="width:100%;height:100%;"&gt;
-&lt;textarea id="console" autocomplete="off"&gt;&lt;/textarea&gt;
-&lt;/div&gt;
-&lt;div id="common"&gt;&lt;/div&gt;
-@others</t>
+打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容
+             
+                    
+&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20170219101553.1">
 &lt;script type="text/python3"&gt;
 from browser import document
