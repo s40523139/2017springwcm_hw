@@ -34,7 +34,7 @@
 &lt;p&gt;-&amp;gt; fossil open cd ./../test.fossil( 把影片丟進去 )&lt;/p&gt;
 &lt;p&gt;-&amp;gt; fossil add . 加入&lt;/p&gt;
 &lt;p&gt;-&amp;gt; fossil commit -m "" &lt;/p&gt;
-&lt;p&gt;-&amp;gt; fossil push (剛剛有加帳號就不用在 push)&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>啟動 CMsimfly</title><link href="./qi-dong-cmsimfly.html" rel="alternate"></link><published>2017-06-26T12:00:00+08:00</published><updated>2017-06-26T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-06-26:./qi-dong-cmsimfly.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;-&amp;gt; fossil push (剛剛有加帳號就不用在 push)&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>在近端啟動 CMsimfly</title><link href="./zai-jin-duan-qi-dong-cmsimfly.html" rel="alternate"></link><published>2017-06-26T12:00:00+08:00</published><updated>2017-06-26T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-06-26:./zai-jin-duan-qi-dong-cmsimfly.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;下載這學期用的tiny2017_1GB 並打開start.bat 在tmp目錄下有一個CMsimfly的檔案&lt;/p&gt;
 &lt;p&gt;先查 ip用 ipconfig     &lt;/p&gt;

@@ -273,6 +273,25 @@ port輸入3128之後案save存檔
 <p><a href="https://vimeo.com/223414827"></a>
     </script>
 </section>
+<section data-markdown>
+    <script type="text/template">
+###將檔案上傳到fossil流程
+
+mkdir test -> cd tset 建立資料夾並進去
+
+ fossil clone https://(這裡加帳號就不用再 push ex : 40523139@)mde2a2.kmol.info/wcmg7/wiki?name=wcmg7 text.foosil
+
+ mk wd -> cd wd 在建立一個資料夾並進入
+
+ fossil open  ./../test.fossil 打開上一頁下載的東西
+
+ fossil add . 加入
+
+ fossil commit -m "" 允許
+
+ fossil push (剛剛有加帳號就不用在 push)把檔案推回去
+    </script>
+</section>
 </div>
 
 </div>
