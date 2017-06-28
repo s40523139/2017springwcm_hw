@@ -37,25 +37,45 @@
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
 </v>
 <v t="yen.20170108171733.16" a="E"><vh>page1</vh>
-<v t="yen.20170108171733.17"><vh>virtualbox中啟動 fossil</vh></v>
-</v>
-<v t="yen.20170108171733.65" a="E"><vh>page2</vh>
-<v t="yen.20170108171733.66"><vh>在 ubuntu 中安裝 nginx 伺服</vh></v>
-</v>
-<v t="yen.20170108171733.67" a="E"><vh>page3</vh>
-<v t="yen.20170108171733.68"><vh>啟動 CMsimfly</vh></v>
-</v>
-<v t="leo.20170628125830.1" a="E"><vh>page4</vh>
 <v t="leo.20170628125915.1"><vh>上課筆記</vh></v>
 </v>
-<v t="yen.20170108171733.64" a="E"><vh>page5</vh>
+<v t="yen.20170108171733.65" a="E"><vh>page2</vh>
 <v t="leo.20170628130636.1"><vh>上課筆記</vh></v>
 </v>
-<v t="leo.20170628152052.1" a="E"><vh>page6</vh>
+<v t="yen.20170108171733.67" a="E"><vh>page3</vh>
+<v t="leo.20170628160738.1"><vh>IPV6網路設定</vh></v>
+</v>
+<v t="leo.20170628125830.1" a="E"><vh>page4</vh>
 <v t="leo.20170628152125.1"><vh>上課筆記</vh></v>
 </v>
+<v t="leo.20170628152052.1" a="E"><vh>page6</vh>
+<v t="yen.20170108171733.17"><vh>virtualbox中啟動 stunnel(上)</vh></v>
 </v>
-<v t="leo.20170628152117.1"><vh>page7</vh></v>
+<v t="leo.20170628174459.1" a="E"><vh>page10</vh>
+<v t="leo.20170628174508.1"><vh>virtualbox中啟動 stunnel(下)</vh></v>
+</v>
+<v t="leo.20170628172759.1" a="E"><vh>page9</vh>
+<v t="leo.20170628172805.1"><vh>virtualbox中啟動 stunnel影片</vh></v>
+</v>
+<v t="yen.20170108171733.64" a="E"><vh>page5</vh>
+<v t="yen.20170108171733.68"><vh>在近端啟動 CMsimfly</vh></v>
+</v>
+<v t="leo.20170628212708.1" a="E"><vh>page11</vh>
+<v t="leo.20170628212707.1"><vh>在近端啟動 CMsimfly影片</vh></v>
+</v>
+<v t="leo.20170628152117.1" a="E"><vh>page7</vh>
+<v t="yen.20170108171733.66"><vh>在 ubuntu 中安裝 nginx 伺服</vh></v>
+</v>
+<v t="leo.20170628171821.1" a="E"><vh>page8</vh>
+<v t="leo.20170628171848.1"><vh>在 ubuntu 中安裝 nginx 伺服影片</vh></v>
+</v>
+<v t="leo.20170628213338.1" a="E"><vh>page12</vh>
+<v t="leo.20170628213337.1"><vh>putty的相關設定</vh></v>
+</v>
+<v t="leo.20170628213916.1" a="E"><vh>page2</vh>
+<v t="leo.20170628213915.1"><vh>putty的相關設定影片</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -65,7 +85,7 @@
 <v t="yen.20170219101403.1"><vh>@edit 20170626.md</vh></v>
 <v t="leo.20170303144114.1"><vh>@edit 20170627.md</vh></v>
 <v t="yen.20170304100133.1"><vh>@edit 20170628.md</vh></v>
-<v t="yen.20170304100907.1"><vh>@edit 20170304-1.md</vh></v>
+<v t="yen.20170304100907.1"><vh>@edit 20170624.md</vh></v>
 <v t="yen.20170417151414.1"><vh>@edit 20170417.md</vh></v>
 <v t="yen.20170618211552.1"><vh>@edit 20170618.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
@@ -124,7 +144,11 @@ pull request 軟性改版
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170628152117.1"></t>
+<t tx="leo.20170628152117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20170628152125.1">###製作網路線
 
 網路線有兩種規格T568A與T568B
@@ -138,6 +162,101 @@ T568B： 橘白    橘    綠    藍    藍白    綠    棕白    棕
 如果是不同規格的，那就是跳線 
 
 跳線可用來作為傳輸兩台電腦之間的橋梁</t>
+<t tx="leo.20170628160738.1">###IPV6網路設定
+在控制台裡打開網路-&gt;內容-&gt;ipv6-&gt;DNS分別輸入
+
+2001:288:6004:17::254 系館
+
+2001:288:b000:168::1 中華電信
+
+或是直接在proxy設定proxy.kmol.info
+
+用ping6可以知道現在網路的位置
+
+用ipconfig /all 查ip 看到fe80開頭的為內部IP
+
+ 
+</t>
+<t tx="leo.20170628171821.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628171848.1">###在 ubuntu 中安裝 nginx 伺服影片
+
+
+###X
+
+&lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; </t>
+<t tx="leo.20170628172759.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628172805.1">###virtualbox中啟動 stunnel影片
+
+###X
+&lt;iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;
+&lt;/a&gt; </t>
+<t tx="leo.20170628174459.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628174508.1">sudo vi /etc/stunnel/stunnel.conf 改寫 stunnel.conf
+
+[https]
+
+ accept = your_IPv4_ip:443
+   
+ accept = :::443
+   
+ cert = /etc/stunnel/localhost.crt
+   
+ key = /etc/stunnel/localhost.key
+   
+ exec = /usr/bin/fossil
+   
+ execargs = /usr/bin/fossil http /home/user/repository/mde2a1.fossil -- https --nojail
+
+/etc/init.d/stunnel4 restart 重新啟動 stunnel4 </t>
+<t tx="leo.20170628212707.1">###在近端啟動 CMsimfly
+###X
+&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; </t>
+<t tx="leo.20170628212708.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628213337.1">###putty的相關設定
+
+在hostname輸入自己組別的名稱(ex:wcmg7.kmol.info)
+
+到proxy裡在proxy hostname打上proxy.kmol.info 
+
+port輸入3128之後案save存檔 
+
+在案open就可以連上各組的電腦了
+
+
+</t>
+<t tx="leo.20170628213338.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628213915.1">###putty的相關設定
+###X
+&lt;iframe src="https://player.vimeo.com/video/223414827" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223414827"&gt;&lt;/a&gt;</t>
+<t tx="leo.20170628213916.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -329,12 +448,26 @@ Created by me
 
 						
 </t>
-<t tx="yen.20170108171733.17">&lt;section&gt;
-　&lt;h2&gt;virtualbox中啟動 fossil&lt;/h2&gt;
+<t tx="yen.20170108171733.17">###virtualbox中啟動 stunnel
 
-&lt;iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;
-&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+sudo apt install stunnel4 -y 安裝 stunnel
+
+sudo vi /etc/environment 設定環境
+
+案O 並輸入[HTTPS=on]  
+
+案esc 在案 :wq 改寫並離開
+
+ sudo vi /etc/default/stunnel4  設定 stunnel
+
+找到ENABLED=0(改成1)
+
+stunnel.conf
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
+
+
+</t>
 <t tx="yen.20170108171733.2">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
@@ -360,9 +493,18 @@ g.es("admin pelican 近端執行完畢")
 
 						
 </t>
-<t tx="yen.20170108171733.66">##在 ubuntu 中安裝 nginx 伺服
-&lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="yen.20170108171733.66">###在 ubuntu 中安裝 nginx 伺服
+ sudo apt update 更新
+
+ sudo rm /var/lib/dkpg/lock 解開 /var/lib/dkpg/ 的 lock
+
+sudo apt upate 確認是否最新
+
+sudo apt install nginx 安裝 nginx
+
+cd /var/www/html 進入
+
+sudo vi index.nginx-debian.html 修改</t>
 <t tx="yen.20170108171733.67">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -374,9 +516,14 @@ g.es("admin pelican 近端執行完畢")
 
 						
 </t>
-<t tx="yen.20170108171733.68">##啟動 CMsimfly
-&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="yen.20170108171733.68">###在近端啟動 CMsimfly
+先查 ip用 ipconfig
+
+用 scite 把wsgi.py 打開 把 ip 改成自己的
+
+步驟 : cd tmp -&gt; cd CMsimfly -&gt; pyhton wsgi.py
+
+打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容</t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.8">@language xml
 @tabwidth -4

@@ -10,7 +10,14 @@
 &lt;p&gt;-&amp;gt; sudo vi index.nginx-debian.html 修改&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>期末考週</title><link href="./2017spring-wcm-final.html" rel="alternate"></link><published>2017-06-18T12:00:00+08:00</published><updated>2017-06-18T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-06-18:./2017spring-wcm-final.html</id><summary type="html">&lt;p&gt;以下為網際內容管理 2017 Spring 第十八週學員連結.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>用putty來連接安裝的主機</title><link href="./yong-puttylai-lian-jie-an-zhuang-de-zhu-ji.html" rel="alternate"></link><published>2017-06-24T12:00:00+08:00</published><updated>2017-06-24T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-06-24:./yong-puttylai-lian-jie-an-zhuang-de-zhu-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;這是用putty連接到我們實際組裝的那台電腦&lt;/p&gt;
+&lt;p&gt;但是因為那台電腦處於純ipv6網路&lt;/p&gt;
+&lt;p&gt;所以只能拍攝putty相關的設定&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/223414827" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223414827"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category><category term="Putty"></category></entry><entry><title>期末考週</title><link href="./2017spring-wcm-final.html" rel="alternate"></link><published>2017-06-18T12:00:00+08:00</published><updated>2017-06-18T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-06-18:./2017spring-wcm-final.html</id><summary type="html">&lt;p&gt;以下為網際內容管理 2017 Spring 第十八週學員連結.&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -85,7 +92,7 @@ for stud_num in alist:
     if n%8 == 0:
         mlink += html.BR()
     container3 &lt;= mlink
-&lt;/script&gt;</summary><category term="Final"></category></entry><entry><title>virtualbox中啟動 fossil</title><link href="./virtualboxzhong-qi-dong-fossil.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-27:./virtualboxzhong-qi-dong-fossil.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="Final"></category></entry><entry><title>virtualbox中啟動 stunnel</title><link href="./virtualboxzhong-qi-dong-stunnel.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-27:./virtualboxzhong-qi-dong-stunnel.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;步驟 : sudo apt update 更新&lt;/p&gt;
 &lt;p&gt;-&amp;gt; sudo rm /var/lib/dkpg/lock 移除 /var/lib/dkpg的lock&lt;/p&gt;
@@ -139,33 +146,4 @@ for stud_num in alist:
 &lt;h3&gt;以 Fossil SCM 版次管理檔案&lt;/h3&gt;
 &lt;p&gt;請參考 &lt;a href="http://mde.tw/2017springvcp/blog/fossil-scm-version-control.html"&gt;http://mde.tw/2017springvcp/blog/fossil-scm-version-control.html&lt;/a&gt; 中的說明, 利用各組所建立, 虛擬主機上的 Fossil SCM Server, 管理各組員利用 ShareX 在現場所拍攝的操作練習影片, 完成後請回報各組虛擬主機 IP 與 Fossil SCM 設定連結, 以便進行查驗.&lt;/p&gt;
 &lt;h3&gt;啟動 CMSimfly&lt;/h3&gt;
-&lt;p&gt;請在各組所建立的虛擬主機中啟動 CMSfimly 網際內容管理系統, 並設法將上述各文字資料與影片資料嵌入頁面中, 完成後即可以進行各組期中自評與互評成績登錄.&lt;/p&gt;</summary><category term="Midterm"></category></entry><entry><title>Ubuntu 16.04 環境下啟動 Stunnel 與 Fossil SCM</title><link href="./2017spring-ubuntu-stunnel-fossil.html" rel="alternate"></link><published>2017-03-04T12:00:00+08:00</published><updated>2017-03-04T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-03-04:./2017spring-ubuntu-stunnel-fossil.html</id><summary type="html">&lt;p&gt;說明如何在 Ubuntu 操作系統中, 安裝並設定 Stunnel 後與 Fossil SCM server 結合啟動.&lt;/p&gt;
-
-
-&lt;h3&gt;Stunnel 與 Fossil SCM 安裝&lt;/h3&gt;
-&lt;p&gt;sudo apt update&lt;/p&gt;
-&lt;p&gt;sudo apt install stunnel4 -y&lt;/p&gt;
-&lt;p&gt;sudo apt install fossil&lt;/p&gt;
-&lt;h2&gt;環境變數與開機啟動設定&lt;/h2&gt;
-&lt;p&gt;/etc/environment 設定:&lt;/p&gt;
-&lt;p&gt;HTTPS=on&lt;/p&gt;
-&lt;p&gt;/etc/default/stunnel4 檔案設定:&lt;/p&gt;
-&lt;p&gt;ENABLED=1&lt;/p&gt;
-&lt;h2&gt;Stunnel 設定並執行 fossil http 指令&lt;/h2&gt;
-&lt;p&gt;stunnel.conf&lt;/p&gt;
-&lt;p&gt;建立 localhost.key 與 localhost.crt:&lt;/p&gt;
-&lt;p&gt;sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt&lt;/p&gt;
-&lt;p&gt;/etc/stunnel/stunnel.conf 設定檔案, 可同時支援 IPv4 與 IPv6 協定:&lt;/p&gt;
-&lt;pre class="brush: jscript"&gt;
-[https]
-accept = your_IPv4_ip:443
-accept = :::443
-cert = /etc/stunnel/localhost.crt
-key = /etc/stunnel/localhost.key
-exec = /usr/bin/fossil
-execargs = /usr/bin/fossil http /home/user/repository/mde2a1.fossil --https --nojail
-&lt;/pre&gt;
-
-&lt;p&gt;其中 --nojail 目的在 drop the root privilege but do not enter the chroot jail&lt;/p&gt;
-&lt;p&gt;重新啟動 stunnel4 則使用 /etc/init.d/stunnel4 restart&lt;/p&gt;
-&lt;p&gt;上述設定完成後, 重新開機即可以 https://yourip 連結至 mde2a1.fossil 網際管理介面.&lt;/p&gt;</summary><category term="Ubuntu"></category><category term="stunnel"></category><category term="fossil"></category></entry></feed>
+&lt;p&gt;請在各組所建立的虛擬主機中啟動 CMSfimly 網際內容管理系統, 並設法將上述各文字資料與影片資料嵌入頁面中, 完成後即可以進行各組期中自評與互評成績登錄.&lt;/p&gt;</summary><category term="Midterm"></category></entry></feed>

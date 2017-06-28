@@ -10,7 +10,7 @@
 &lt;p&gt;-&amp;gt; sudo vi index.nginx-debian.html 修改&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>virtualbox中啟動 fossil</title><link href="./virtualboxzhong-qi-dong-fossil.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-27:./virtualboxzhong-qi-dong-fossil.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>virtualbox中啟動 stunnel</title><link href="./virtualboxzhong-qi-dong-stunnel.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-27:./virtualboxzhong-qi-dong-stunnel.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;步驟 : sudo apt update 更新&lt;/p&gt;
 &lt;p&gt;-&amp;gt; sudo rm /var/lib/dkpg/lock 移除 /var/lib/dkpg的lock&lt;/p&gt;

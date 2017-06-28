@@ -61,43 +61,6 @@ Created by me
 						
 <section data-markdown>
     <script type="text/template">
-<section>
-　<h2>virtualbox中啟動 fossil</h2>
-
-<iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/215008801">
-</a> from <a href="https://vimeo.com/user58915964">劉育彤</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </script>
-</section>
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-##在 ubuntu 中安裝 nginx 伺服
-<iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/215033333"></a> from <a href="https://vimeo.com/user58915964">劉育彤</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-##啟動 CMsimfly
-<iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/215030751"></a> from <a href="https://vimeo.com/user58915964">劉育彤</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
 ###上課筆記
 MBR = Master Boot Record 主開機紀錄
 
@@ -116,8 +79,12 @@ get pip 套件管理 pyqt5
 pull request 軟性改版
     </script>
 </section>
+
+
+						
 <section data-markdown>
     <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
 ###上課筆記
 何謂機械設計
 
@@ -138,6 +105,33 @@ pull request 軟性改版
 計：經過很多討論、很多考量
     </script>
 </section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###IPV6網路設定
+在控制台裡打開網路->內容->ipv6->DNS分別輸入
+
+2001:288:6004:17::254 系館
+
+2001:288:b000:168::1 中華電信
+
+或是直接在proxy設定proxy.kmol.info
+
+用ping6可以知道現在網路的位置
+
+用ipconfig /all 查ip 看到fe80開頭的為內部IP
+
+ 
+    </script>
+</section>
+
+
+
+						
 <section data-markdown>
     <script type="text/template">
 ###製作網路線
@@ -153,6 +147,130 @@ T568B： 橘白    橘    綠    藍    藍白    綠    棕白    棕
 如果是不同規格的，那就是跳線 
 
 跳線可用來作為傳輸兩台電腦之間的橋梁
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###virtualbox中啟動 stunnel
+
+sudo apt install stunnel4 -y 安裝 stunnel
+
+sudo vi /etc/environment 設定環境
+
+案O 並輸入[HTTPS=on]  
+
+案esc 在案 :wq 改寫並離開
+
+ sudo vi /etc/default/stunnel4  設定 stunnel
+
+找到ENABLED=0(改成1)
+
+stunnel.conf
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
+
+
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+sudo vi /etc/stunnel/stunnel.conf 改寫 stunnel.conf
+
+[https]
+
+ accept = your_IPv4_ip:443
+   
+ accept = :::443
+   
+ cert = /etc/stunnel/localhost.crt
+   
+ key = /etc/stunnel/localhost.key
+   
+ exec = /usr/bin/fossil
+   
+ execargs = /usr/bin/fossil http /home/user/repository/mde2a1.fossil -- https --nojail
+
+/etc/init.d/stunnel4 restart 重新啟動 stunnel4 
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###virtualbox中啟動 stunnel影片
+
+###X
+<iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/215008801">
+</a> 
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###在近端啟動 CMsimfly
+先查 ip用 ipconfig
+
+用 scite 把wsgi.py 打開 把 ip 改成自己的
+
+步驟 : cd tmp -> cd CMsimfly -> pyhton wsgi.py
+
+打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###在近端啟動 CMsimfly
+###X
+<iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/215030751"></a> 
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###在 ubuntu 中安裝 nginx 伺服
+ sudo apt update 更新
+
+ sudo rm /var/lib/dkpg/lock 解開 /var/lib/dkpg/ 的 lock
+
+sudo apt upate 確認是否最新
+
+sudo apt install nginx 安裝 nginx
+
+cd /var/www/html 進入
+
+sudo vi index.nginx-debian.html 修改
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###在 ubuntu 中安裝 nginx 伺服影片
+
+
+###X
+
+<iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/215033333"></a> 
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###putty的相關設定
+
+在hostname輸入自己組別的名稱(ex:wcmg7.kmol.info)
+
+到proxy裡在proxy hostname打上proxy.kmol.info 
+
+port輸入3128之後案save存檔 
+
+在案open就可以連上各組的電腦了
+
+
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+###putty的相關設定
+###X
+<iframe src="https://player.vimeo.com/video/223414827" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223414827"></a>
     </script>
 </section>
 </div>
