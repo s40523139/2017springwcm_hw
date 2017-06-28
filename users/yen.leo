@@ -45,19 +45,24 @@
 <v t="yen.20170108171733.67" a="E"><vh>page3</vh>
 <v t="yen.20170108171733.68"><vh>啟動 CMsimfly</vh></v>
 </v>
+<v t="leo.20170628125830.1" a="E"><vh>page4</vh>
+<v t="leo.20170628125915.1"><vh>上課筆記</vh></v>
 </v>
-<v t="yen.20170108171733.64"><vh>各式內容引用範例</vh></v>
+<v t="yen.20170108171733.64" a="E"><vh>page5</vh>
+<v t="leo.20170628130636.1"><vh>上課筆記</vh></v>
+</v>
+<v t="leo.20170628152052.1" a="E"><vh>page6</vh>
+<v t="leo.20170628152125.1"><vh>上課筆記</vh></v>
+</v>
+</v>
+<v t="leo.20170628152117.1"><vh>page7</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170108171733.72"><vh>@edit 20170625.md</vh></v>
-<v t="yen.20170219101403.1"><vh>@edit 20170626.md</vh>
-<v t="yen.20170219101623.1"><vh>ex1 - for 迴圈</vh></v>
-<v t="yen.20170219101610.1"><vh>ex2 - input 與單位換算</vh></v>
-<v t="yen.20170219101553.1"><vh>filereader</vh></v>
-</v>
+<v t="yen.20170219101403.1"><vh>@edit 20170626.md</vh></v>
 <v t="leo.20170303144114.1"><vh>@edit 20170627.md</vh></v>
 <v t="yen.20170304100133.1"><vh>@edit 20170628.md</vh></v>
 <v t="yen.20170304100907.1"><vh>@edit 20170304-1.md</vh></v>
@@ -73,6 +78,66 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170628125830.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628125915.1">###上課筆記
+MBR = Master Boot Record 主開機紀錄
+
+SSD = Solid State Disk 固態硬碟
+
+SCSL = Small Computer System Interface 小型電腦介面
+
+redundant 多餘的
+
+Raid 磁碟陣列
+
+replication 自我複製
+
+get pip 套件管理 pyqt5
+
+pull request 軟性改版
+</t>
+<t tx="leo.20170628130636.1">###上課筆記
+何謂機械設計
+
+何謂機械
+
+要能夠精巧配置的東西  除了流體、固體還有液體
+
+機：左邊為木頭 、右邊為幾，幾代表很多的元件
+
+械：戒的意思是控制在一個範圍內，器物本身有特定功能
+
+何謂設計
+
+設計是一種表達
+
+設：左邊是言--代表說話，請別人去做
+
+計：經過很多討論、很多考量
+</t>
+<t tx="leo.20170628152052.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628152117.1"></t>
+<t tx="leo.20170628152125.1">###製作網路線
+
+網路線有兩種規格T568A與T568B
+
+T568A： 綠白    綠    橘白    藍    藍白    橘    棕白    棕
+
+T568B： 橘白    橘    綠    藍    藍白    綠    棕白    棕
+
+兩種同規格的頭在一條線就為網路線
+
+如果是不同規格的，那就是跳線 
+
+跳線可用來作為傳輸兩台電腦之間的橋梁</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -239,7 +304,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="yen.20170108171733.15">## 2017 網際內容管理
+<t tx="yen.20170108171733.15"># 2017 網際內容管理
 ##40523139 劉育彤
 
 ### 
@@ -279,8 +344,10 @@ g.es("admin pelican 近端執行完畢")
 
 </t>
 <t tx="yen.20170108171733.5"></t>
-<t tx="yen.20170108171733.64">&lt;section&gt;
+<t tx="yen.20170108171733.64">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
+    &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="yen.20170108171733.65">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -376,110 +443,6 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
-<t tx="yen.20170219101403.1">@language md
-Title: 啟動 CMsimfly
-Date: 2017-04-24 12:00
-Category: Misc
-Tags: CMsimfly
-Author: 40523139
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-下載這學期用的tiny2017_1GB 並打開start.bat 在tmp目錄下有一個CMsimfly的檔案
-
-先查 ip用 ipconfig     
-
-用 scite 把wsgi.py 打開 把 ip 改成自己的
-
-步驟 : cd tmp -&gt; cd CMsimfly -&gt; pyhton wsgi.py 
-
-打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容
-             
-                    
-&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
-<t tx="yen.20170219101553.1">
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_file(e):
-    data = open("./../python_ex/for1.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get"].bind("click", get_file)
-&lt;/script&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_temp1(e):
-    data = open("./../python_ex/temp1.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get_temp1"].bind("click", get_temp1)
-&lt;/script&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_ver_and_kw(e):
-    data = open("./../python_ex/ver_and_kw.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get_ver_and_kw"].bind("click", get_ver_and_kw)
-&lt;/script&gt;
-
-&lt;button id="get"&gt;for1.py&lt;/button&gt;&lt;button id="get_temp1"&gt;temp1.py&lt;/button&gt;&lt;button id="get_ver_and_kw"&gt;ver_and_kw.py&lt;/button&gt;
-</t>
-<t tx="yen.20170219101610.1">
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import script1
-
-def ex2(ev):
-    script1.editor.setValue('''#溫度轉換程式
-from browser import document as doc
-
-# 因為此函式與滑鼠互動, 需要 event 當作輸入
-def convTemp():
-    mystring = ""
-    cdegree = input("請輸入攝氏溫度:")
-    fdegree = float(cdegree)*9/5 + 32
-    output_string = "攝氏 " + str(cdegree) + "度=華氏 " + str(fdegree) + "度" 
-    # 利用 print() 將轉換結果送到 console 區
-    print(output_string)
-
-#直接呼叫 convTemp() 執行
-convTemp()
-    ''')
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-doc['ex2'].bind('click',ex2)
-&lt;/script&gt;&lt;a id="ex2"&gt;ex2&lt;/a&gt;-溫度換算</t>
-<t tx="yen.20170219101623.1">
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import script1
-
-def ex1(ev):
-    script1.editor.setValue('''#ex1 簡單的 for 迴圈範例
-    for i in range(10):
-        print(i)
-    ''')
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-doc['ex1'].bind('click',ex1)
-&lt;/script&gt;&lt;a id="ex1"&gt;ex1&lt;/a&gt;-for 迴圈
-</t>
 <t tx="yen.20170224232341.1"></t>
 <t tx="yen.20170224232341.2"></t>
 </tnodes>

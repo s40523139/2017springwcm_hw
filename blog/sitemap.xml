@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-28T12:56:32-00:00</lastmod>
+<lastmod>2017-06-28T15:25:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-28T12:56:32-00:00</lastmod>
+<lastmod>2017-06-28T15:25:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-28T12:56:32-00:00</lastmod>
+<lastmod>2017-06-28T15:25:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-28T12:56:32-00:00</lastmod>
+<lastmod>2017-06-28T15:25:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -67,6 +67,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./qi-dong-cmsimfly.html</loc>
+<lastmod>2017-04-24T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./2017spring-wcm-midterm.html</loc>
 <lastmod>2017-04-17T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -95,13 +102,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/ubuntu.html</loc>
-<lastmod>2017-06-25T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/final.html</loc>
 <lastmod>2017-06-18T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -109,8 +109,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/midterm.html</loc>
-<lastmod>2017-04-17T12:00:00+08:06</lastmod>
+<loc>./tag/fossil.html</loc>
+<lastmod>2017-04-25T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/cmsimfly.html</loc>
+<lastmod>2017-04-24T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -130,8 +137,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/fossil.html</loc>
-<lastmod>2017-04-25T12:00:00+08:06</lastmod>
+<loc>./tag/midterm.html</loc>
+<lastmod>2017-04-17T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/ubuntu.html</loc>
+<lastmod>2017-06-25T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

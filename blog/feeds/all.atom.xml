@@ -120,7 +120,16 @@ for stud_num in alist:
 &lt;p&gt;-&amp;gt; fossil open cd ./../test.fossil( 把影片丟進去 )&lt;/p&gt;
 &lt;p&gt;-&amp;gt; fossil add . 加入&lt;/p&gt;
 &lt;p&gt;-&amp;gt; fossil commit -m "" &lt;/p&gt;
-&lt;p&gt;-&amp;gt; fossil push (剛剛有加帳號就不用在 push)&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>期中分組任務</title><link href="./2017spring-wcm-midterm.html" rel="alternate"></link><published>2017-04-17T12:00:00+08:00</published><updated>2017-04-17T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-17:./2017spring-wcm-midterm.html</id><summary type="html">&lt;p&gt;請在期中考週時段, 以組為單位完成下列指定任務.&lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil push (剛剛有加帳號就不用在 push)&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>啟動 CMsimfly</title><link href="./qi-dong-cmsimfly.html" rel="alternate"></link><published>2017-04-24T12:00:00+08:00</published><updated>2017-04-24T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-24:./qi-dong-cmsimfly.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;下載這學期用的tiny2017_1GB 並打開start.bat 在tmp目錄下有一個CMsimfly的檔案&lt;/p&gt;
+&lt;p&gt;先查 ip用 ipconfig     &lt;/p&gt;
+&lt;p&gt;用 scite 把wsgi.py 打開 把 ip 改成自己的&lt;/p&gt;
+&lt;p&gt;步驟 : cd tmp -&amp;gt; cd CMsimfly -&amp;gt; pyhton wsgi.py &lt;/p&gt;
+&lt;p&gt;打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="CMsimfly"></category></entry><entry><title>期中分組任務</title><link href="./2017spring-wcm-midterm.html" rel="alternate"></link><published>2017-04-17T12:00:00+08:00</published><updated>2017-04-17T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-17:./2017spring-wcm-midterm.html</id><summary type="html">&lt;p&gt;請在期中考週時段, 以組為單位完成下列指定任務.&lt;/p&gt;
 
 
 &lt;h3&gt;建立 Ubuntu 虛擬主機&lt;/h3&gt;
